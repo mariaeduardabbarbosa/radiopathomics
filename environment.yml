@@ -1,0 +1,26 @@
+name: radiopathomics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - jupyterlab
+  - opencv
+  - pillow
+  - tqdm
+  - pyyaml
+  - pip:
+    - pyradiomics
+    - openslide-python
+    - scikit-image
+    - SimpleITK
+    - nibabel
